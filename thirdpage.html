@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Sign up | Notion</title>
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.13.1/font/bootstrap-icons.min.css">
+  <link rel="stylesheet" href="login.css">
+  <link rel="stylesheet" href="signup.css">
+</head>
+<body>
+  <main class="login">
+    <svg class="logo" viewBox="0 0 24 24" width="32" height="32" aria-label="Notion">
+      <path fill="currentColor" d="M4.459 4.208c.746.606 1.026.56 2.428.466l13.215-.793c.28 0 .047-.28-.046-.326L17.86 1.737c-.42-.326-.98-.56-1.727-.466L3.385 2.296c-.28.047-.327.234-.187.373zM5.532 7.054c-.7.047-.84.373-.84.793v13.805c0 .653.42 1.12.98 1.073l14.475-.84c.653-.047.887-.56.887-1.12V7.1c0-.42-.234-.606-.653-.56zm3.501 2.378h1.867l4.388 6.483V9.432h1.68v8.024h-1.68l-4.575-6.81v6.81h-1.68z"/>
+    </svg>
+
+    <h1>Your AI workspace.<br><span>Create your Notion account</span></h1>
+
+    <form class="form" action="#" method="post">
+      <label for="email">Work email</label>
+      <input type="email" id="email" name="email" placeholder="Enter your email address..." autocomplete="email">
+      <p class="tip"><strong>Tip: Use your work email</strong> (if you have one) so it&rsquo;s easier for your team to join you on Notion</p>
+      <button type="submit" class="continue">Continue</button>
+    </form>
+
+    <div class="divider"><span>or continue with</span></div>
+
+    <div class="providers">
+      <a href="#" class="provider">
+        <svg viewBox="0 0 48 48" width="18" height="18" aria-hidden="true">
+          <path fill="#EA4335" d="M24 9.5c3.5 0 6.6 1.2 9.1 3.6l6.8-6.8C35.8 2.4 30.3 0 24 0 14.6 0 6.5 5.4 2.6 13.2l7.9 6.1C12.4 13.6 17.7 9.5 24 9.5z"/>
+          <path fill="#4285F4" d="M46.5 24.5c0-1.6-.1-3.1-.4-4.5H24v9h12.7c-.6 3-2.2 5.5-4.7 7.2l7.6 5.9c4.4-4.1 6.9-10.1 6.9-17.6z"/>
+          <path fill="#FBBC05" d="M10.5 28.7c-.5-1.4-.8-3-.8-4.7s.3-3.2.8-4.7l-7.9-6.1C.9 16.5 0 20.1 0 24s.9 7.5 2.6 10.8l7.9-6.1z"/>
+          <path fill="#34A853" d="M24 48c6.5 0 11.9-2.1 15.9-5.8l-7.6-5.9c-2.1 1.4-4.9 2.3-8.3 2.3-6.3 0-11.6-4.1-13.5-9.8l-7.9 6.1C6.5 42.6 14.6 48 24 48z"/>
+        </svg>
+        <span>Google</span>
+      </a>
+      <a href="#" class="provider">
+        <span class="ms" aria-hidden="true"><i></i><i></i><i></i><i></i></span>
+        <span>Microsoft</span>
+      </a>
+      <a href="#" class="provider"><i class="bi bi-openai"></i><span>ChatGPT</span></a>
+    </div>
+
+    <p class="existing">Existing user? <a href="login.html">Log in</a></p>
+  </main>
+</body>
+</html>

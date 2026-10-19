@@ -1,0 +1,23 @@
+/* Extra styles for signup.html (loads after login.css) */
+
+.tip {
+  margin: 10px 0 20px;
+  padding: 12px 16px;
+  font-size: 14px;
+  line-height: 1.45;
+  color: #37352f;
+  background: #f1f0ee;
+  border-radius: 8px;
+}
+.tip strong { font-weight: 600; }
+
+.existing {
+  margin: 28px 0 0;
+  font-size: 14px;
+  color: #787774;
+}
+.existing a {
+  color: inherit;
+  text-decoration: underline;
+}
+.existing a:hover { color: #37352f; }
